@@ -1,0 +1,15 @@
+//Take three numbers from the user and print the greatest number. 
+public class MyClass {
+    public static void main(String args[]) {
+      int x=10;
+      int y=50;
+      int z=20;
+
+      if (x>y && x>z)
+        System.out.println("X is greatest");
+      else if (y>x && y>z)
+        System.out.println("Y is Greatest");
+      else 
+        System.out.println("Z is Greatest");
+    }
+}
